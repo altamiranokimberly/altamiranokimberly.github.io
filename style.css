@@ -1,0 +1,68 @@
+*{
+    font-family: "Outfit", sans-serif;;
+    
+}
+
+header{
+    background-color:#37dc4a;
+}
+
+header span{
+    color: #EEEEEE;
+}
+
+.nav-item a{
+    color: #EEEEEE; 
+}
+
+.nav-item a:visited{/* Link visitado, recordar en orden, para que no interfiera en hover */
+    color: #EEEEEE;
+}
+
+.nav-item a:hover{
+    color: #3777dc;
+}
+
+
+
+#nav-button{
+    background-color: #3777dc;
+}
+
+
+.iconos-h{
+    color: #4a37dc
+}
+
+.img-proyecto1{
+    background-image: url(assets/clonpinterest.png);
+    opacity: 0.6;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: #37dc9d;
+}
+
+footer .icon-footer i{
+    color: antiquewhite;
+}
+
+footer p{
+    color: antiquewhite;
+}
+footer p a{
+    color: #4a37dc;
+}
+
+.btn-custom { 
+    color: rgb(55, 119, 220); /* Color del texto */
+    border-color: #4a37dc; 
+}
+
+.btn-custom:hover {
+    background-color: #37dc4a; /* Color de fondo al pasar el ratón */
+    color: white; /* Color del texto al pasar el ratón */
+    border-color: #3777dc; /* Color del borde al pasar el ratón */
+}
