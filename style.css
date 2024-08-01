@@ -66,3 +66,7 @@ footer p a{
     color: white; /* Color del texto al pasar el ratón */
     border-color: #3777dc; /* Color del borde al pasar el ratón */
 }
+
+#app{
+    color:#4a37dc;
+}
