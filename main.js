@@ -5,12 +5,12 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('<h2> Desarrolladora Frontend Jr | Programadora Jr. </h2>')
+typewriter.typeString('Desarrolladora Frontend Jr | Programadora Jr. ')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('<h2> Si lo puedes imaginar, lo puedes crear!</h2>')
+    .typeString(' Si lo puedes imaginar, lo puedes crear!')
     .pauseFor(2500)
     .deleteChars(6)
-    .typeString('<strong><h2>programar!</h2></strong>')
+    .typeString('<strong>programar!</strong>')
     .pauseFor(2500)
     .start();
